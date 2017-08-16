@@ -5,51 +5,74 @@ from math import *
 root=Tk()
 
 #the functions
+
 def add_0():
     string.set(string.get()+"0")
+
 def add_1():
     string.set(string.get()+"1")
+
 def add_2():
     string.set(string.get()+"2")
+
 def add_3():
     string.set(string.get()+"3")
+
 def add_4():
     string.set(string.get()+"4")
+
 def add_5():
     string.set(string.get()+"5")
+
 def add_6():
     string.set(string.get()+"6")
+
 def add_7():
     string.set(string.get()+"7")
+
 def add_8():
     string.set(string.get()+"8")
+
 def add_9():
     string.set(string.get()+"9")
+
 def addition():
     string.set(string.get()+"+")
+
 def subtract():
     string.set(string.get()+"-")
+
 def equals():
     x=eval(string.get())
     string.set(x)
+
 def multiply():
     string.set(string.get()+"*")
+
 def divide():
     string.set(string.get()+"/")
+
 def exponentation():
     string.set(string.get()+"**")
+
 def Square_root():
     string.set("sqrt("+string.get()+")")
+
 def Cubic_root():
     string.set("pow("+string.get()+",1/3)")
+
 def bracket_1():
     string.set(string.get()+"(")
+
 def bracket_2():
     string.set(string.get()+")")
+
 def Dot():
     string.set(string.get()+".")
+
 def Restart():
     string.set(" ")
+
 string=StringVar()
 string.set(" ")
 label=Label(root,textvariable=string)
